@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+.container {
+  max-width: 1230px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+section {
+  padding-bottom: 70px;
+}
+h1,
+h2 {
+  font-family: "Francois One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 0 40px;
+  display: flex;
+  align-items: flex-start;
+}
+p {
+  margin: 0 0 40px;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+.header .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0 83px;
+}
+.nav-list {
+  margin-left: 50px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.nav-link,
+.lang-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+.lang-link {
+  font-family: "Tourney";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.nav-list li {
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+.slash {
+  margin: 0 10px;
+}
+.header-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.introduction-link,
+.core-components-link {
+  color: black;
+}
+.react-fundamentals-list {
+  margin: 0;
+  padding-left: 0px;
+  list-style-position: inside;
+}
+.react-fundamentals-list:last-child li:last-child {
+  margin-bottom: 0;
+}
+.react-fundamentals-list li {
+  margin-bottom: 40px;
+}
+.react-fundamentals-list li::marker {
+  content: "+ ";
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 48px;
+}
+.chapter {
+  font-family: "Farro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+mark {
+  background-color: #dadada;
+}
